@@ -3,12 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        float a;
-    a = 12.5f;
-            System.out.println(a);
-    byte b = 56;
+        float e;
+        e = 12.5f;
+        System.out.println(e);
+        byte b = 56;
         System.out.println(b);
-    short s = 3101;
+        short s = 3101;
         System.out.println(s);
         int i = 25456466;
         System.out.println(i);
@@ -20,6 +20,18 @@ public class Main {
         System.out.println(c);
         boolean bl = true;
         bl = false;
-
     }
+
+    public static void main() {
+        float a = 12.5f;
+        float b = 10.3f;
+        float c = 12.6f;
+        float d = 3.2f;
+        float f = a * (b + (c / d));
+        System.out.println(f);
+    }
+
 }
+
+
+
